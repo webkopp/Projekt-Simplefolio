@@ -1,5 +1,7 @@
 import './App.css'
 import CardItem from './assets/components/carditem/CardItem'
+import Contact from './assets/components/contact/Contact'
+import Footer from './assets/components/footer/Footer'
 import Haupt from './assets/components/haupt/Haupt'
 import Info from './assets/components/info/Info'
 import ListItem from './assets/components/listitem/ListItem'
@@ -18,6 +20,8 @@ function App() {
       <ListItem />
       <SkillsItem />
       <SkillListItem />
+      <Contact />
+      <Footer />
     </>
   )
 }
